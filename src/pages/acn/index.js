@@ -93,7 +93,7 @@ export const Acn = () => {
 						<span className='bg-black text-white px-2 py-1 rounded'>9 cupos</span> restantes
 					</p>
 				</section>
-				<section className='flex flex-col justify-center items-center bg-sapphire-s-300 text-white w-full py-8 max-w-7xl rounded my-8 px-2'>
+				<section className='flex flex-col justify-center items-center bg-sapphire-s-300 text-white w-full py-2 max-w-7xl rounded my-8 px-2'>
 					<h2 className='text-3xl mb-4'>¿CÓMO FUNCIONA?</h2>
 					<section className='flex justify-center items-center bg-sapphire-s-300 bg-opacity-60 w-full max-w-7xl rounded'>
 						<div className='grid grid-cols-1  w-full max-w-4xl md:my-20'>
