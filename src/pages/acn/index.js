@@ -83,7 +83,7 @@ export const Acn = () => {
 				<meta property='og:site_name' content='' />
 			</Head>
 
-			<div className='flex flex-col justify-center items-center w-full h-full bg-blue-s-300 px-20'>
+			<div className='flex flex-col justify-center items-center w-full h-full bg-blue-s-300 px-10'>
 				<section className='flex flex-col justify-center items-center bg-white bg-opacity-10 w-full max-w-7xl m-10 py-14 text-white rounded px-2'>
 					<h1 className='text-lg mb-10'> Si nos demuestras que tienes el perfil para ser parte de nuestro equipo...</h1>
 					<h2 className='text-1xl font-bold'>Te enseño como vamos a </h2>
@@ -93,15 +93,22 @@ export const Acn = () => {
 						<span className='bg-black text-white px-2 py-1 rounded'>9 cupos</span> restantes
 					</p>
 				</section>
+				<section className='flex flex-col justify-center items-center bg-sapphire-s-300 text-white w-full py-8 max-w-7xl rounded my-8 px-2'>
+					<h2 className='text-3xl mb-4'>¿CÓMO FUNCIONA?</h2>
+					<section className='flex justify-center items-center bg-sapphire-s-300 bg-opacity-60 w-full max-w-7xl rounded'>
+						<div className='grid grid-cols-1  w-full max-w-4xl md:my-20'>
+							<div className='relative min-h-full flex justify-center rounded my-4'>
+								<iframe className='rounded' width='313' height='557' src='https://www.youtube.com/embed/6b48j4xpToM' title='19 de marzo de 2023' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>
+							</div>
+						</div>
+					</section>
+				</section>
 
 				<section className='flex justify-center items-center bg-charcoal-t-600 w-full h-full max-w-7xl rounded mb-40'>
 					<div className='grid grid-cols-1 md:grid-cols-2 w-full max-w-6xl my-20'>
 						<div className='grid grid-cols-1 gap-4 mt-2 h-54 sm:h-[584px]' data-thumb='1_thumb.jpg'>
-							<div className='relative min-h-full'>
-								<iframe src='https://www.youtube.com/embed/MBXtx1GV4PM' allow='autoplay; fullscreen' frameBorder='0' layout='responsive' className='w-full h-full'></iframe>
-							</div>
-							<div className='relative min-h-full'>
-								<iframe src='https://www.youtube.com/embed/KaJHa1-lj7I' allow='autoplay; fullscreen' frameBorder='0' layout='responsive' className='w-full h-full'></iframe>
+							<div className='relative min-h-full mx-2'>
+								<iframe src='https://www.youtube.com/embed/X12DqRynRWg' allow='autoplay; fullscreen' frameBorder='0' layout='responsive' className='w-full h-full rounded'></iframe>
 							</div>
 						</div>
 						<div className='flex flex-col justify-center items-center'>
@@ -118,14 +125,14 @@ export const Acn = () => {
 
 							<div className='flex flex-col w-10/12 md:w-9/12 px-4 bg-turquoise-t-300 rounded mx-1 my-4 py-2'>
 								<h2>
-									<a className='flex justify-center text-sm md:text-2xl text-white bg-black rounded mb-6' href='https://api.whatsapp.com/send?phone=573157861921&text=Quiero%20información'>
+									<a className='flex justify-center text-sm md:text-2xl text-white bg-black rounded mb-6' target='_blank' href='https://api.whatsapp.com/send?phone=573157861921&text=Quiero%20información'>
 										<spam className='mx-2'>Toma el test cognitivo</spam>
 									</a>
 								</h2>
 								<h2 className='font-bold'>Este sábado evento de negocios</h2>
 								<p className='text-xs'>
 									escríbeme al whatsapp para reservarte un cupo:
-									<a className='text-white mx-1' href='https://api.whatsapp.com/send?phone=573157861921&text=Quiero%20información'>
+									<a className='text-white mx-1' target='_blank' href='https://api.whatsapp.com/send?phone=573157861921&text=Quiero%20información'>
 										3157861921
 									</a>
 									(aplica para quienes pasaron test cognitivo)
@@ -135,26 +142,6 @@ export const Acn = () => {
 						</div>
 					</div>
 				</section>
-
-				{/* <section className='flex flex-col justify-center items-center bg-sapphire-s-300 bg-opacity-90 text-white w-full py-8 max-w-7xl rounded my-8 px-2'>
-					<h2 className='text-3xl mb-4'>¿CÓMO FUNCIONA?</h2>
-					<ul className='my-4 list-disc grid grid-rows-3 gap-2  px-6 mx-2'>
-						<li>Cena + bebida.</li>
-						<li>Sistema de calificación discreto</li>
-						<li>Participación actividades del evento.</li>
-						<li>
-							Contacto de las personas con las que hizo Match:
-							<ul className=''>
-								<li>
-									<b>Básico</b>: 😍 Me gusta
-								</li>
-								<li>
-									<b>Premium</b>: 😍 Me gusta, 😎 me gusta para amistad y 😈 tentatción sexual.
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</section> */}
 
 				{/* <section className='flex flex-col justify-center items-center bg-charcoal-t-600 w-full py-8 max-w-7xl rounded my-2 px-2'>
 					<h2 className='text-3xl mb-4 mt-8'>PROGRAMACIÓN</h2>
