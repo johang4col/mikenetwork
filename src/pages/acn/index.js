@@ -85,12 +85,12 @@ export const Acn = () => {
 
 			<div className='flex flex-col justify-center items-center w-full h-full bg-blue-s-300 px-20'>
 				<section className='flex flex-col justify-center items-center bg-white bg-opacity-10 w-full max-w-7xl m-10 py-14 text-white rounded px-2'>
-					<h1 className='text-xl mb-10'> Si nos demuestras que tienes el perfil para ser parte de nuestro equipo...</h1>
-					<h2 className='text-2xl font-bold'>Te enseño cómo vamos a </h2>
-					<p className='text-xl font-bold px-4 py-2 mt-8 bg-turquoise-t-300 bg-opacity-60 text-black rounded'>ganar dinero cada vez que alguien use el celular 😍</p>
+					<h1 className='text-lg mb-10'> Si nos demuestras que tienes el perfil para ser parte de nuestro equipo...</h1>
+					<h2 className='text-1xl font-bold'>Te enseño como vamos a </h2>
+					<p className='text-3xl font-bold px-4 py-2 mt-1 bg-black text-white rounded'>ganar dinero cada vez que alguien use el celular 😍</p>
 					{/* <p className='text-xs'>Aclaración: Este evento no es un sitio de acompañantes o similar.</p> */}
 					<p className='text-sm font-bold px-4 py-2 mt-8  text-white rounded'>
-						<span className='bg-black text-white px-2 py-0.5 rounded'>9 cupos</span> restantes
+						<span className='bg-black text-white px-2 py-1 rounded'>9 cupos</span> restantes
 					</p>
 				</section>
 
