@@ -15,7 +15,19 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<main className={styles.main}>
-				<h1 className='text-blue'>nothing here</h1>
+				<p className='text-xs my-8'>
+					escríbeme al whatsapp para info sobre oportunidades de negocio
+					<a className='text-white mx-1' href='https://api.whatsapp.com/send?phone=573157861921&text=Quiero%20información'>
+						3157861921
+					</a>
+				</p>
+
+				<p className='text-xs'>
+					o visita aquí...
+					<a className='text-white mx-1' href='https://mikenetwork.vercel.app/acn'>
+						3157861921
+					</a>
+				</p>
 			</main>
 		</>
 	);
