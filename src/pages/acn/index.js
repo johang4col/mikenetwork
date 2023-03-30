@@ -77,7 +77,7 @@ export const Acn = () => {
 				{/* <meta name='viewport' content='initial-scale=1.0, width=device-width' /> */}
 				<meta property='description' content='Oportunidade de negocio con acn' />
 				<meta property='og:title' content='Networking' />
-				<meta property='og:description' content='Ven y conoce' />
+				<meta property='og:description' content='Visita mi web para ver las oportunidades de negocio que tengo' />
 				<meta property='og:type' content='' />
 				<meta property='og:url' content='' />
 				<meta property='og:site_name' content='' />
